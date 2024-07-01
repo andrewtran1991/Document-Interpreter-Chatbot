@@ -24,14 +24,47 @@ Welcome to the Document Interpreter Chatbot! This chatbot uses OpenAI's language
   - gradio
 
 ## Installation
+### Setting Up a Virtual Environment
 
-1. Clone this repository:
+1. **Open Command Prompt or Terminal:**
+    - Press `Win + R`, type `cmd`, and press `Enter`. Or open your terminal.
+
+2. **Navigate to Your Project Directory:**
+    ```bash
+    cd path\to\your\project
+    ```
+
+3. **Install Virtual Environment Tool (Optional):**
+    If you haven't installed the virtual environment package (`virtualenv`) yet, you can install it using pip:
+    ```bash
+    pip install virtualenv
+    ```
+
+4. **Create a Virtual Environment:**
+    ```bash
+    virtualenv chatbot_env
+    ```
+
+5. **Activate the Virtual Environment:**
+    ```bash
+    chatbot_env\Scripts\activate
+    ```
+    You should see `(chatbot_env)` appear at the beginning of your command line prompt, indicating that the virtual environment is activated.
+
+6. **Install Dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+### Clone the Repository and Install Requirements
+
+1. **Clone this repository:**
     ```bash
     git clone https://github.com/andrewtran1991/document-interpreter-chatbot.git
     cd document-interpreter-chatbot
     ```
 
-2. Install the required packages:
+2. **Install the required packages:**
     ```bash
     pip install -r requirements.txt
     ```
